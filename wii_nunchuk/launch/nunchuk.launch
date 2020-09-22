@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="wii_nunchuk" type="nunchuk.py" name="nunchuk">
+        <param name="port" value="/dev/ttyUSB0" type="str"/>
+        <param name="baudrate" value="115200" type="int" />
+    </node>
+</launch>
