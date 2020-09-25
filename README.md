@@ -30,13 +30,13 @@ Within the "wii_nunchuk/assets" folder you will find and Arduino sketch file. Fo
 
 Make sure, this folder is part of a catkin workspace. If so, run
 
-  catkin build wii_nunchuk
+    catkin build wii_nunchuk
   
 ## Usage
 
 After setup, you can launch the ROS node
 
-  roslaunch wii_nunchuk nunchuk.launch
+    roslaunch wii_nunchuk nunchuk.launch
   
 It might be required, that you change some parameters depending on your OS. The parameters are within the launch file.
 
